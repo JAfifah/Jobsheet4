@@ -1,0 +1,19 @@
+Deklarasi
+jumlah kamar, jumlah tamu, lama hari menginap, tipe kamar = int
+harga, saldo = double
+
+deskripsi
+print "Masukkan saldo"
+read saldo
+print "tipe kamar"
+read tipe kamar
+print "Masukkan jumlah kamar"
+read tipe kamar
+print "jumlah tamu"
+read jumlah tamu
+print "lama menginap"
+read lama menginap
+totalbayar = tipe kamar x lama menginap x jumlah kamar
+print "bayar"
+jika saldo kurang dari total harga, print "pembayaran gagal"
+jika saldo >= total harga, print "pembayaran berhasil"

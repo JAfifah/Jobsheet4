@@ -1,0 +1,15 @@
+Deklarasi :
+jmlMasuk, jmlTdkMasuk, TotGaji=int
+gaji, potGaji=int
+
+Deskripsi :
+Print "Masukkan Jumlah Gaji"
+Read gaji
+Print "Masukkan Potongan Gaji"
+Read potGaji
+Print "Masukkan Jumlah Hari Masuk Kerja Anda"
+Read jmlMasuk
+Print "Masukkan Jumlah Hari Tidak Masuk Kerja Anda"
+Read jmlTdkMasuk
+TotGaji=(jmlMasuk*gaji)-(JmlTdkMasuk*potGaji)
+Print ("Gaji yang anda terima adalah " +TotGaji)

@@ -1,0 +1,21 @@
+Deklarasi :
+int harga, jumlah, jumlahHalaman
+String merkBuku
+double besarandiskon, total, diskon, bayar
+
+Deskripsi :
+Print "Masukkan harga barang yang dibeli"
+Read harga
+Print "Masukkan jumlah barang yang dibeli"
+jumlah harga
+Print "Masukkan merk buku"
+Read merkBuku
+Print "Masukkan jumlah halaman buku"
+Read jumlahHalaman
+Print "Masukkan besaran diskon (dalam persen)"
+Read besarandiskon
+total = harga * jumlah
+dis = (total * (besarandiskon / 100))
+bayar = total - diskon
+Print "Diskon yang Anda dapatkan adalah"
+Print "Jumlah yang harus dibayar adalah"
